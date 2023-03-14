@@ -19,6 +19,6 @@ for i in range(len(liczby)):
                     print(liczby[i])
                     break
 
-                    
+
 
 #idk czy działa, niezoptymalizowane
