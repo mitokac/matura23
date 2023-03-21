@@ -1,5 +1,5 @@
 liczby = []
-
+wyn=0
 
 with open('dane_napisy.txt') as plik:
     for line in plik:
@@ -19,5 +19,5 @@ for i in range(len(liczby)):
     if a==b:
         a.sort()
         b.sort()
-
-        print(liczby[i])
+        wyn+=1
+print(wyn)
