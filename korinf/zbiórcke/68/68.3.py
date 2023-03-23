@@ -27,4 +27,4 @@ for i in range(len(liczby)):
         if max<wyn:
             max = wyn
 
-            print(max)
+print(max)
