@@ -1,0 +1,4 @@
+dla i=1,2,...,n wykonaj:
+	jeżeli A[i]mod2=0
+		w<-A[i]
+wypisz w

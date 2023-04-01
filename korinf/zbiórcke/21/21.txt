@@ -15,13 +15,13 @@ x1,x2,x4,x9,x19,x38
 
 21.3
 
-wynik <-1
+wynik <-x
 mnozenia <-0
-dla i = 1,2,...,n wykonuj:
-	jeżeli k[i]=0
-		mnozenia <- mnozenia *2
+dla i = n-1,n-2,...,0 wykonuj:
+
+	wynik <- wynik * wynik
 	jeżeli k[i] = 1
-		mnozenia <- mnozenia*2+1
+		wynik <- wynik*x
 		
-dla i = 1,2,...,mnozenia wykonuj:
-	wynik = wynik*x
+wypisz wynik
+		
