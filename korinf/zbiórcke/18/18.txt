@@ -6,14 +6,18 @@
 
 18.3
 
-dla i = 1,2,...,n wykonaj:
+dla i = 1,2,...,n-1 wykonaj:
 	q = a[i]
-	w = a[i-1]
+	w = a[i+1]
 	dopóki b<>0
 		r<-q mod w
 		q<-w
 		w<-r
-	q[i+1]<-a
-	i <-i+1
+	a[i+1]<-q
 
+wypisz q
+q <- nwd(a[1],a[2])
+dla i = 3,4,...,n-1 wykonaj:
+	q <- nwd(q, a[i])
+	
 wypisz q
