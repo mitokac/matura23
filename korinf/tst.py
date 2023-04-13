@@ -6,7 +6,7 @@ sr=0
 
 def wysz(p,k,l):
     sr = (p+k)//2
-    x = 6
+    x = 5
     if l[sr] == x:
         return sr
     elif l[sr] > x:
