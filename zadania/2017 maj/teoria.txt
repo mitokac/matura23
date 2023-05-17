@@ -1,0 +1,36 @@
+1.1
+72
+216
+0
+
+1.2
+max <-0
+pop_max <-0
+
+dla i = A[1...n] wykonaj:
+	jeżeli A[i]mod p <> 0:
+		jeżeli A[i] > max:
+			max <- A[i]		
+		jeżeli A[i] <> max i A[i] > pop_max:
+			pop_max <- A[i]
+			
+a <- max*pop_max
+wypisz a
+
+2.1
+2
+1
+-4
+
+2.2
+B
+
+2.3
+135
+
+3.1
+FPFP
+3.2
+FPPF
+3.3
+PFFP
